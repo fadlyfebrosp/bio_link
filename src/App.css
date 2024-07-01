@@ -1,0 +1,20 @@
+/* * {
+  border: 1px solid red;
+} */
+
+#root, html, body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* html {
+  position: relative;
+  background-color: red;
+} */
+
+/* body {
+  position: relative;
+  background-color: blue;
+} */

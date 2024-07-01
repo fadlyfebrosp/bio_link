@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../src/assets/img/Fadly.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="Bio Link Fadly Febro"
+      content="Landing page website by Fadly Febro, Front-end web developer who lives in Jakarta Utara, Indonesia and is open to your job offers"
+    />
+    <link rel="apple-touch-icon" href="../src/assets/img/Fadly.jpeg" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- link font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <title id="titleText">Bio Link | Official website</title>
+
+    <script>
+      // Membuat teks berjalan di judul halaman
+      setInterval(function() {
+        var title = document.title;
+        document.title = title.substring(1) + title[0];
+      }, 200); // Ubah angka 200 untuk mengatur kecepatan berjalan teks (dalam milidetik)
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
