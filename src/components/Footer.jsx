@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Footer = ({isSticky}) => {
+const Footer = ({ isSticky }) => {
   return (
-    <div className='max-w-sm mx-auto flex justify-center'>
-      <p className={`absolute ${isSticky ? 'sticky mt-4 bottom-4' : 'static bottom-4'}  text-xs`}>Copyright ©️ 2023 Created by <span className='font-bold'><a href='https://fadly-febro-official-web.vercel.app/'>Fadly Febro</a></span></p>
-    </div>
-  )
-}
+    <footer className={`bg-white-200 py-4 text-center text-slate-500 dark:bg-slate-800 dark:text-slate-400 ${isSticky ? 'absolute bottom-0 left-0 w-full' : 'relative'}`}>
+      <p>Copyright © 2023 Created by Fadly Febro</p>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
