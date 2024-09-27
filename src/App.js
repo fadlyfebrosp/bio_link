@@ -8,7 +8,6 @@ import Header from './components/Header';
 const App = () => {
   const [darkTheme, setDarkTheme] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
-  const [contentHeight, setContentHeight] = useState(0);
 
   useEffect(() => {
     const handleResize = () => {
@@ -16,7 +15,6 @@ const App = () => {
       const documentHeight = document.documentElement.scrollHeight;
 
       setIsSticky(windowHeight < 580 && documentHeight > windowHeight);
-      setContentHeight(windowHeight);
     };
 
     handleResize(); // Set initial values
