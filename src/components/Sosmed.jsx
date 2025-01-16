@@ -24,7 +24,7 @@ const Sosmed = ({ darkTheme }) => {
       <a 
         target='_blank' 
         rel="noopener noreferrer"  // Tambahkan rel="noopener noreferrer" untuk keamanan
-        href="https://github.com/fadlyfebros" 
+        href="https://github.com/fadlyfebrosp" 
         className={`hover:scale-105 active:scale-95 transition ${darkTheme ? 'hover:text-slate-200 active:text-white' : 'hover:text-slate-600 active:text-slate-900'}`}
       > 
         <FaGithub /> 
