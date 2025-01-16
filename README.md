@@ -2,7 +2,7 @@
 
 > Live Demo :)
 
-**[Visit Project](https://fadly-febro-official-web.vercel.app/)**
+**[Visit Project](https://www.biofadly.my.id/)**
 
 ## Available Scripts
 

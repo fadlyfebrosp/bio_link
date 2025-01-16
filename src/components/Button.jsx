@@ -28,12 +28,12 @@ const Button = ({ darkTheme }) => {
         Top Up Game
       </a>
       <a 
-        href="https://rssuryanabil.my.id/" 
+        href="https://pustakanusa.my.id/" 
         target='_blank' 
         rel="noopener noreferrer"
         className={`rounded-2xl text-center border-amber-200 border-2 py-3 px-24 shadow-md shadow-amber-100 hover:scale-105 active:scale-95 transition ${darkTheme ? 'text-white bg-slate-800 hover:bg-slate-700 active:bg-slate-900' : 'text-slate-900 bg-white hover:bg-slate-100 active:bg-slate-200'}`}
       >
-        RS SURYA NABIL
+        Pustaka Nusa
       </a>
       <a 
         href="https://monanime-webanime.vercel.app/" 
