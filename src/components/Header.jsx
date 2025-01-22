@@ -38,19 +38,19 @@ const Header = ({darkTheme, setDarkTheme}) => {
                 <p className='text-xl font-bold border-b border-white'>Share</p>
                 <div className='grid grid-cols-3 justify-items-center pt-2'>
                   <div>
-                    <FacebookShareButton url='https://fadly-febro-official-web.vercel.app/' className='grid grid-cols-1 justify-items-center'>
+                    <FacebookShareButton url='https://www.fadlyfebro.my.id/' className='grid grid-cols-1 justify-items-center'>
                       <FacebookIcon size={46} round={true} />
                       <p>Facebook</p>
                     </FacebookShareButton>
                   </div>
                   <div>
-                    <WhatsappShareButton url='https://fadly-febro-official-web.vercel.app/' className='grid grid-cols-1 justify-items-center'>
+                    <WhatsappShareButton url='https://www.fadlyfebro.my.id/' className='grid grid-cols-1 justify-items-center'>
                       <WhatsappIcon size={46} round={true} />
                       <p>Whatsapp</p>
                     </WhatsappShareButton>
                   </div>
                   <div>
-                    <TelegramShareButton url='https://fadly-febro-official-web.vercel.app/' className='grid grid-cols-1 justify-items-center'>
+                    <TelegramShareButton url='https://www.fadlyfebro.my.id/' className='grid grid-cols-1 justify-items-center'>
                       <TelegramIcon size={46} round={true} />
                       <p>Telegram</p>
                     </TelegramShareButton>
